@@ -1,0 +1,33 @@
+PROJECT:Automated Cattle Feeder System using IoT
+Presented by: DIVYA DHARSINI D
+Institution: KPR Institute of Engineering and Technology
+Project Guide: Dr. Jaikumar
+
+OBJECTIVE:
+The primary goal of this project is to build an automated cattle feeding system that delivers food and water to livestock 
+at scheduled intervals. By automating this process, the system minimizes the need for manual involvement and increases the 
+overall efficiency of farm operations, especially in larger or remote settings.
+
+METHODOLOGY:
+Step 1: Analyze the demand for automation in the cattle farming sector, particularly focusing 
+on large farms and remote agricultural areas.
+Step 2: Create an electronic circuit incorporating key components such as an Arduino board, 
+a real-time clock (RTC) module, a relay, a servo motor, and a DC-powered water pump.
+Step 3: Develop and upload a custom Arduino program to manage the coordination of feeding actions
+based on time.
+Step 4: Use the RTC module to define and maintain accurate feeding times.
+Step 5: Connect the relay module to manage power to the DC pump for automatic 
+water supply.
+Step 6: Conduct multiple tests and iterations to ensure consistent and reliable performance of the 
+feeding mechanism.
+
+ROTOTYPE OVERVIEW:
+Components Utilized: Arduino UNO, RTC module, servo motor for feed control, relay switch, and a DC water 
+pump for hydration.
+Feeding Mechanism: At the programmed time, the servo motor rotates to tilt and dispense food into the feeding tray.
+Water Supply: Simultaneously, the relay triggers the pump to release water into a container.
+Timing Logic: The system includes delay logic to ensure proper feeding cycles without overlap or repetition.
+Expandability: The design can be scaled to serve multiple feeding stations, making it suitable for larger farms.
+Future Enhancements: Incorporation of IoT-based controls and monitoring will allow farmers to adjust feeding schedules 
+and monitor system status remotely via a smartphone or computer.
+
