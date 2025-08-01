@@ -1,4 +1,4 @@
-🐄🐟 Automated Cattle & Fish Feeder System
+🐄🐟 AUTOMATED CATTLE & FISH FEEDER
 
 This project automates the **feeding and watering process** for cattle and fish using an Arduino, RTC module (DS3231), servo motor, 
 and a relay-controlled water pump. The system is time-based, ensuring feed and water are dispensed at a preset hour daily with minimal human intervention.
@@ -6,11 +6,11 @@ and a relay-controlled water pump. The system is time-based, ensuring feed and w
 
 🔧 Features
 
- ⏰ Time-controlled feeding using an RTC (Real-Time Clock)
- 🥣 Servo motor-operated feed dispenser
- 💧 Automatic water pump activation via relay
- 🔁 Prevents multiple feeds in a day using a simple flag logic
- 🔍 Serial monitor outputs current time for debugging and verification
+ * Time-controlled feeding using an RTC (Real-Time Clock)
+ *  Servo motor-operated feed dispenser
+ *  Automatic water pump activation via relay
+ * Prevents multiple feeds in a day using a simple flag logic
+ *  Serial monitor outputs current time for debugging and verification
 
 
 
